@@ -6,7 +6,9 @@ public class Circle extends Shapes {
 
     @Override
     public double getArea() {
+        System.out.println("Circle area is: " + Math.PI * radius * radius * Math.PI);
         return 2 * Math.PI * radius * radius;
+
     }
 
 
